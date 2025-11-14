@@ -1,0 +1,12 @@
+/truck-ticketing-spa
+│
+├─ index.html
+├─ /css
+│   └─ style.css
+├─ /js
+│   └─ script.js
+├─ /assets
+│   ├─ /images
+│   │   └─ logo.jpg   <-- drop your logo here
+│   └─ /icons
+│       └─ (Fluent icons)
