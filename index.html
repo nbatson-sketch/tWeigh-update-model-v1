@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tWeigh Truck Ticketing SPA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fluent UI CDN (optional: for later replacing emojis) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fluentui/web-components/dist/fast-components.min.css">
+</head>
+<body>
+    <!-- Top Tabs -->
+    <nav class="top-tabs">
+        <span class="tab" data-page="generate">Generate Sales Ticket</span>
+        <span class="tab" data-page="add-edit">Add/Edit</span>
+        <span class="tab" data-page="invoicing">Invoicing</span>
+        <span class="tab" data-page="report">Report</span>
+        <span class="tab" data-page="system">System</span>
+        <span class="tab" data-page="utility">Utility</span>
+        <span class="tab" data-page="help">Help</span>
+        <span class="tab" data-page="exit">Exit</span>
+    </nav>
+
+    <!-- Main Button Panel -->
+    <main class="button-panel">
+        <div class="button" data-page="generate">
+            <!-- TODO: Replace emoji with Fluent icon -->
+            <i class="fluent-icon">📝</i>
+            <span class="hover-text">Generate Sales Ticket</span>
+        </div>
+        <div class="button" data-page="add-edit">
+            <i class="fluent-icon">✏️</i>
+            <span class="hover-text">Add/Edit</span>
+        </div>
+        <div class="button" data-page="invoicing">
+            <i class="fluent-icon">💰</i>
+            <span class="hover-text">Invoicing</span>
+        </div>
+        <div class="button" data-page="report">
+            <i class="fluent-icon">📊</i>
+            <span class="hover-text">Report</span>
+        </div>
+        <div class="button" data-page="system">
+            <i class="fluent-icon">⚙️</i>
+            <span class="hover-text">System</span>
+        </div>
+        <div class="button" data-page="utility">
+            <i class="fluent-icon">🛠️</i>
+            <span class="hover-text">Utility</span>
+        </div>
+        <div class="button" data-page="help">
+            <i class="fluent-icon">❓</i>
+            <span class="hover-text">Help</span>
+        </div>
+        <div class="button" data-page="exit">
+            <i class="fluent-icon">🚪</i>
+            <span class="hover-text">Exit</span>
+        </div>
+    </main>
+
+    <!-- Content Area -->
+    <section class="content-area" id="content">
+        <h2>Welcome to tWeigh Truck Ticketing SPA</h2>
+        <p>Select a button or top tab to continue.</p>
+    </section>
+
+    <!-- Bottom Banner with Logo -->
+    <footer class="bottom-banner">
+        <img src="assets/images/company-logo.jpg" alt="Company Logo" id="logo">
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
